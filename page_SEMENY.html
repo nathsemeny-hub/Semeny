@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEMENY — Conseil pour les affaires et conseil de gestion</title>
+<meta name="description" content="SEMENY propose des prestations de conseil en organisation, gestion, développement commercial et accompagnement des projets professionnels.">
+<style>
+:root{--ink:#172033;--muted:#667085;--line:#e6e9ef;--bg:#f7f8fa;--white:#fff}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+.container{max-width:1050px;margin:auto;padding:0 22px}
+header{background:var(--white);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px;font-weight:800;letter-spacing:.08em}
+.nav a{color:var(--ink);text-decoration:none;margin-left:24px;font-size:14px}
+.hero{background:var(--white);padding:78px 0 70px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#596579}
+h1{font-size:46px;line-height:1.1;max-width:760px;margin:14px 0 20px}
+.hero p{max-width:720px;color:var(--muted);font-size:18px}
+.btn{display:inline-block;margin-top:18px;background:var(--ink);color:#fff;text-decoration:none;padding:13px 21px;border-radius:7px;font-weight:700}
+section{padding:58px 0}
+h2{font-size:30px;margin:0 0 10px}
+.intro{color:var(--muted);max-width:720px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:25px}
+.card h3{margin:0 0 10px;font-size:18px}
+.card p{color:var(--muted);font-size:14px;margin:0}
+.price{font-size:22px;font-weight:800;margin-top:18px}
+.price small{font-size:13px;color:var(--muted);font-weight:400}
+.contact{background:var(--white);border-top:1px solid var(--line)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.info p{margin:8px 0;color:var(--muted)}
+.info strong{color:var(--ink)}
+footer{padding:30px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+@media(max-width:760px){h1{font-size:36px}.grid,.contact-grid{grid-template-columns:1fr}.nav a{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">SEMENY</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">Conseil pour les affaires et conseil de gestion</div>
+    <h1>Des conseils pratiques pour structurer et développer vos projets professionnels.</h1>
+    <p>
+      SEMENY accompagne les entrepreneurs, indépendants et professionnels dans leurs
+      problématiques d’organisation, de gestion et de développement commercial.
+      Les prestations sont adaptées aux besoins de chaque client.
+    </p>
+    <a class="btn" href="mailto:nathsemeny@gmail.com">Prendre contact</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2>Nos services</h2>
+    <p class="intro">Des prestations de conseil conçues pour apporter un accompagnement clair, structuré et adapté à chaque projet.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Analyse et diagnostic</h3>
+        <p>Analyse de la situation, identification des besoins et définition des principales priorités pour l’activité.</p>
+      </div>
+      <div class="card">
+        <h3>Organisation et gestion</h3>
+        <p>Conseils pour améliorer l’organisation du travail, le suivi des tâches et les méthodes de gestion.</p>
+      </div>
+      <div class="card">
+        <h3>Accompagnement administratif</h3>
+        <p>Aide à la structuration et au suivi des démarches et documents liés à l’activité professionnelle.</p>
+      </div>
+      <div class="card">
+        <h3>Développement commercial</h3>
+        <p>Conseils sur l’organisation commerciale, le développement de l’activité et la structuration des actions.</p>
+      </div>
+      <div class="card">
+        <h3>Plan d’action</h3>
+        <p>Élaboration d’un plan d’action personnalisé avec des objectifs, priorités et étapes de mise en œuvre.</p>
+      </div>
+      <div class="card">
+        <h3>Suivi personnalisé</h3>
+        <p>Accompagnement régulier pour faire le point sur les actions engagées et ajuster les priorités.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tarifs">
+  <div class="container">
+    <h2>Prestations et tarifs</h2>
+    <p class="intro">Les tarifs sont indicatifs et peuvent être adaptés selon la nature et l’étendue de la mission.</p>
+    <div class="grid">
+      <div class="card"><h3>Analyse et diagnostic de l’activité</h3><div class="price">150 €</div></div>
+      <div class="card"><h3>Conseil en organisation et gestion</h3><div class="price">180 €</div></div>
+      <div class="card"><h3>Accompagnement administratif</h3><div class="price">120 €</div></div>
+      <div class="card"><h3>Conseil en développement commercial</h3><div class="price">200 €</div></div>
+      <div class="card"><h3>Élaboration d’un plan d’action</h3><div class="price">150 €</div></div>
+      <div class="card"><h3>Suivi et accompagnement personnalisé</h3><div class="price">200 €</div><small>Forfait selon la mission</small></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Fonctionnement</h2>
+    <p class="intro">
+      Les demandes sont étudiées au préalable afin de définir le besoin du client et le périmètre de la mission.
+      Les prestations peuvent être réalisées à distance ou lors d’un rendez-vous, selon les modalités convenues.
+      Les comptes rendus, recommandations et autres livrables peuvent être transmis par voie électronique.
+    </p>
+    <div class="card">
+      <h3>Disponibilité</h3>
+      <p>Du lundi au vendredi, de 9h00 à 18h00. Les demandes sont traitées par e-mail ou par téléphone.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="contact-grid">
+      <div class="info">
+        <p><strong>Nom :</strong> Nathan Semeny</p>
+        <p><strong>Activité :</strong> SEMENY</p>
+        <p><strong>Adresse :</strong> Juvisy-sur-Orge, 91260, France</p>
+        <p><strong>SIREN :</strong> 951 801 950</p>
+      </div>
+      <div class="info">
+        <p><strong>E-mail :</strong> <a href="mailto:nathsemeny@gmail.com">nathsemeny@gmail.com</a></p>
+        <p><strong>Téléphone :</strong> <a href="tel:+33756867909">07 56 86 79 09</a></p>
+        <p><strong>Horaires :</strong> lundi–vendredi, 9h00–18h00</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">© SEMENY — Conseil pour les affaires et autres conseils de gestion.</div>
+</footer>
+</body>
+</html>
